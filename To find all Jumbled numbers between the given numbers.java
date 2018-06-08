@@ -20,9 +20,9 @@ import java.util.*;
 Public class ABC
 {
 	public static void main (String[] args) 
-  {
-    Scanner sn=new Scanner(System.in);
-    int start=sn.nextInt();
+  	{
+    		Scanner sn=new Scanner(System.in);
+    		int start=sn.nextInt();
 		int end=sn.nextInt();
 		System.out.println("Starting point : "+start);
 		System.out.println("Ending point : "+end+"\n");
