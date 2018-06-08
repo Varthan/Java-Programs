@@ -1,12 +1,12 @@
-Sample Input : jdfabcsh
+// Sample Input : jdfabcsh
 
-Sample Output : abc
+// Sample Output : abc
 
-Coding :
+// Coding :
 
-import java.util.*;
+ import java.util.*;
  public class ABC
-{
+ {
     public static void main(String args[])
     {
         Scanner sn=new Scanner(System.in);
