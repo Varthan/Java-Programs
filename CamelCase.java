@@ -1,14 +1,14 @@
-Sample Input 1 : hElLo woRlD
+**Sample Input 1 :** hElLo woRlD
 
-Sample Output 1 : Hello World
+**Sample Output 1 :** Hello World
 	
   
-Sample Input 2 : weLCoMe everYonE
+**Sample Input 2 :** weLCoMe everYonE
 
-Sample Output 2 : Welcome Everyone
+**Sample Output 2 :** Welcome Everyone
 
 
-Coding : 
+##Coding : 
 
 import java.util.Scanner;
 public class HelloWorld 
