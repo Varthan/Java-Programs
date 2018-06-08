@@ -17,27 +17,27 @@
 	    
 	    while(n<in.length())
 	    {
-	        count=0;
+	    	count=0;
 	        for(int i=n;i<in.length();i++)
-            {
-                if(in.charAt(n)==in.charAt(i))
-                    count++;
-                else
-                    break;
-            }
-            if(count>1)
-            {
-                out = out + Character.toString( in.charAt(n)) + count;
-                n+=count;
-            }
+           	{
+                	if(in.charAt(n)==in.charAt(i))
+                    		count++;
+                	else
+                    		break;
+            	}
+            	if(count>1)
+            	{
+                	out = out + Character.toString( in.charAt(n)) + count;
+                	n+=count;
+            	}
     
-            else
-            {
-                out = out + Character.toString( in.charAt(n));
-                n++;
-            }
+            	else
+            	{
+                	out = out + Character.toString( in.charAt(n));
+                	n++;
+            	}
 	    }
 	    System.out.println("Input : " + in);
-        System.out.println("Output : " + out);
+            System.out.println("Output : " + out);
 	}
 }
